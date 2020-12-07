@@ -5,7 +5,7 @@ sig=sig';
 yout1=out.yout(:,1); % extracting column vectors of each output
 yout2=out.yout(:,2);
 yout3=out.yout(:,3);
-time=out.tout;   %extacting the time column vector 
+time=out.tout;   %extacting the time column vector
 plot(time,yout1);
 title('Y2');
 figure;
